@@ -17,7 +17,7 @@ class SearchBox extends Component {
 
   onChangeHandler = (e) => {
     this.setState({ keyword: e.target.value });
-    this.props.dispatch(StarshipAction.findstarships(this.state.keyword));
+    // this.props.dispatch(StarshipAction.findstarships(this.state.keyword));
   };
 
   onClickHandler = () => {

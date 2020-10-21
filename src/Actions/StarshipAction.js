@@ -24,7 +24,7 @@ export const fetchstarships = (n = 1) => (dispatch) => {
 
 export const getstarship = (id = '') => (dispatch) => {
   const dest = 'starships/';
-  const url = `${API_URL}${dest}${id}/`;
+  const url = `${API_URL}${dest}${id}`;
   Axios.get(url)
     .then((response) => {
       dispatch({
