@@ -1,3 +1,7 @@
+![alt text](https://github.com/abymanyubagarela/starwars/blob/master/public/screenshot.jpg)
+
+https://cranky-ride-3a3266.netlify.app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
